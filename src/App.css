@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+.App {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+input {
+  font-size: 30px;
+}
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
+  /* font-family: cursive; */
+}
+
+h1 {
+  margin: 30px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 50px;
+}
+
+.submit,
+.bookmarks {
+  /* padding: 10px; */
+  width: 200px;
+  border-radius: 30px;
+  height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.submit:hover {
+  color: black;
+  background-color: maroon;
+  border-radius: 30px;
+}
+
+.bookmarks {
+  width: 15%;
+  background-color: #8f8f8f;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: x-large;
+}
+
+.bookmarks:hover {
+  color: gold;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.imageDiv {
+  flex: flex;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  flex: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.image-container {
+  column-count: 3;
+}
+
+.remove {
+  position: absolute;
+  bottom: 6px;
+  left: 25%;
+  text-align: center;
+  display: none;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.imageDiv:hover .add {
+  display: block;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  font-weight: bolder;
+}
+
+.bookHeading {
+  width: 100%;
+  text-align: center;
+  color: mediumslateblue;
+  font-weight: bolder;
+  /* font-family: cursive; */
+}
